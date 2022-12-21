@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #FDFFDC;
   text-align: center;
 }
@@ -84,7 +84,7 @@ h3 {
 
 a:hover {
   color: #FF3796;
-}
+} */
 
 @media (max-width: 960px) {
   .container {
