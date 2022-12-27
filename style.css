@@ -1,9 +1,56 @@
-/* body {
-  background-color: #FDFFDC;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;800&display=swap');
+
+.body {
+  font-family: 'Raleway', sans-serif;
 }
 
 .container {
+  padding: 0 150px;
+}
+
+.my-name-is {
+  margin: 200px 0;
+}
+
+.my-name-is h1 {
+  font-family: 'Fira Mono', monospace;
+  color: #FF6E31;
+  font-size: 16px;
+  margin-bottom: 0 0 20px 0;
+}
+
+.my-name-is h2, h3 {
+  font-size: 78px;
+  font-weight: 800;
+  margin: 10px 0 0 0;
+}
+
+.my-name-is a {
+  font-family: 'Fira Mono', monospace;
+  color: #FF6E31;
+  font-size: 14px;
+  border: 1px solid #FF6E31;
+  border-radius: 4px;
+  padding: 1.25rem 1.75rem;
+  text-decoration: none;
+  margin: 50px 0 0 0; !important
+}
+
+/* * body {
+  background-color: #243763;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  color: #FF3796;
+  text-align: center;
+  margin-top: 20px;
+} */
+
+/* .container {
   margin: 100px 300px;
   max-width: 800px;
 }
@@ -22,13 +69,6 @@
 }
 
 
-h1 {
-  font-family: 'Indie Flower', cursive;
-  font-size: 40px;
-  color: #FF3796;
-  text-align: center;
-  margin-top: 20px;
-}
 
 p {
   font-family: 'Prompt', sans-serif;
@@ -102,4 +142,4 @@ a:hover {
   .container {
     width: 300px;
   }
-}
+} */
