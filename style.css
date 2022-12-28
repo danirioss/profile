@@ -3,38 +3,90 @@
 
 .body {
   font-family: 'Raleway', sans-serif;
+  font-weight: 300;
 }
 
 .container {
   padding: 0 150px;
 }
 
-.my-name-is {
+a {
+  text-decoration: none;
+}
+
+#my-name-is {
   margin: 200px 0;
 }
 
-.my-name-is h1 {
+#my-name-is h1 {
   font-family: 'Fira Mono', monospace;
   color: #FF6E31;
   font-size: 16px;
   margin-bottom: 0 0 20px 0;
 }
 
-.my-name-is h2, h3 {
+#my-name-is h2, h3 {
   font-size: 78px;
   font-weight: 800;
   margin: 10px 0 0 0;
 }
 
-.my-name-is a {
+#my-name-is a {
   font-family: 'Fira Mono', monospace;
   color: #FF6E31;
   font-size: 14px;
   border: 1px solid #FF6E31;
   border-radius: 4px;
   padding: 1.25rem 1.75rem;
-  text-decoration: none;
-  margin: 50px 0 0 0; !important
+  margin: 50px 0 0 0 !important;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#who-am-i {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+#who-am-i-content {
+  font-size: 20px;
+  padding: 50px;
+  width: 50%;
+  position: relative;
+}
+
+#who-am-i img {
+  object-fit: cover;
+  height: 70vh;
+  margin: auto;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+#things-i-ve-done {
+  margin-bottom: 100px;
+}
+
+.things-i-ve-done-cards {
+  display: flex;
+  justify-content: start;
+}
+
+.card {
+  width: 25%;
+  height: auto;
+  padding: 10px;
+  margin-right: 20px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+
+.card a {
+  font-size: 25px;
+
 }
 
 /* * body {
@@ -67,8 +119,6 @@ h1 {
 #card-menor {
   padding: 10px 50px;
 }
-
-
 
 p {
   font-family: 'Prompt', sans-serif;
