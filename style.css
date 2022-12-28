@@ -46,7 +46,6 @@ a {
   border: 1px solid #FF6E31;
   border-radius: 4px;
   padding: 1.25rem 1.75rem;
-  margin: 50px 0 0 0 !important;
 }
 
 h4 {
@@ -94,13 +93,22 @@ h4 {
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
 }
 
-.card a {
-  font-size: 25px;
+a img {
+  width: 100%;
+  height: auto;
+}
+
+a h3 {
+  font-size: 20px;
   color: #FF6E31;
 }
 
-.card li {
-  color: #AD8E70
+a p {
+  color: #FFEBB7
+}
+
+a li {
+  color: #AD8E70;
 }
 
 #whats-next {
