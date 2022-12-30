@@ -9,10 +9,6 @@ body {
   font-size: 20px;
 }
 
-/* .container {
-  padding: 0 150px;
-} */
-
 a {
   text-decoration: none;
 }
@@ -181,14 +177,6 @@ a p {
 
 
 @media (max-width: 960px) {
-  /* #who-am-i {
-    height: 100vh;
-  }
-
-  #things-i-ve-done {
-    height: 100vh;
-  } */
-
   #who-am-i-content {
     text-align: center;
     width: 80%;
@@ -203,5 +191,4 @@ a p {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
 }
