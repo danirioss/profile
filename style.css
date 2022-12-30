@@ -6,6 +6,7 @@ body {
   font-weight: 300;
   background-color: #243763;
   color: #FFEBB7;
+  font-size: 20px;
 }
 
 /* .container {
@@ -47,8 +48,8 @@ a {
   padding: 1.25rem 1.75rem;
 }
 
-h4 {
-  font-size: 30px;
+.mediun-title {
+  font-size: 40px;
   font-weight: 700;
   color: #AD8E70;
   text-decoration: overline;
@@ -59,7 +60,6 @@ h4 {
 }
 
 #who-am-i-content {
-  font-size: 20px;
   padding: 50px;
   width: 50%;
   text-align: end;
@@ -74,24 +74,14 @@ h4 {
 }
 
 #things-i-ve-done {
-  height: 80vh;
+  height: 100vh;
   padding: 200px 0;
-}
-
-#things-i-ve-done h4 {
-  text-align: center;
-  margin-bottom: 80px;
-}
-
-.things-i-ve-done-cards {
-  display: flex;
-  justify-content: center;
 }
 
 .card {
   width: 25%;
   height: auto;
-  padding: 10px;
+  padding: 20px;
   margin-left: 20px;
   border: 0,5px solid #AD8E70;
   box-shadow: 2px 0px 6px 2px  rgba(0,0,0,0.3);
@@ -105,34 +95,29 @@ a img {
 }
 
 a h3 {
-  font-size: 20px;
   color: #AD8E70;
+  margin-top: 20px;
+  font-family: 'Fira Mono', monospace;
 }
 
 a p {
+  font-size: 18px;
   color: #FFEBB7
 }
 
 #technologies-i-ve-used {
-  height: 80vh;
+  height: 100vh;
   padding: 200px;
-}
-
-#technologies-i-ve-used h4 {
-  margin-bottom: 80px;
 }
 
 #technologies-i-ve-used li {
   color: #FF6E31;
   font-family: 'Fira Mono', monospace;
-  font-size: 20px;
 }
 
-
 #whats-next {
-  text-align: center;
-  height: 40vh;
-  padding: 200px 250px;
+  height: 100vh;
+  padding: 200px 350px;
 }
 
 #whats-next h2 {
@@ -142,24 +127,13 @@ a p {
   margin-bottom: 30px;
 }
 
-#whats-next p {
-  margin-bottom: 50px;
-  color: #AD8E70
-}
-
-.list-inline {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  padding-left: 0;
-}
-
-.list-inline li {
+#whats-next li {
   padding: 0 15px;
   font-size: 20px;
+  list-style: none;
 }
 
-i {
+#whats-next i {
   color: #FF6E31;
 }
 
@@ -172,7 +146,7 @@ i {
     text-align: center;
     width: 80%;
   }
-  
+
   #who-am-i img {
     display: flex;
     justify-content: center;
