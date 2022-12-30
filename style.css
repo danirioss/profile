@@ -75,14 +75,16 @@ a {
 
 #things-i-ve-done {
   height: 100vh;
-  padding: 200px 0;
+}
+
+.things-i-ve-done-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
 }
 
 .card {
-  width: 25%;
-  height: auto;
   padding: 20px;
-  margin-left: 20px;
   border: 0,5px solid #AD8E70;
   box-shadow: 2px 0px 6px 2px  rgba(0,0,0,0.3);
   background-color: transparent;
@@ -107,17 +109,18 @@ a p {
 
 #technologies-i-ve-used {
   height: 100vh;
-  padding: 200px;
 }
 
 #technologies-i-ve-used li {
   color: #FF6E31;
   font-family: 'Fira Mono', monospace;
+  list-style: none;
 }
 
 #whats-next {
   height: 100vh;
-  padding: 200px 350px;
+  display: flex;
+  align-items: center;
 }
 
 #whats-next h2 {
@@ -137,6 +140,7 @@ a p {
   color: #FF6E31;
 }
 
+
 @media (max-width: 540px) {
   #my-name-is {
     padding-top: 100px;
@@ -144,29 +148,60 @@ a p {
 
   #who-am-i-content {
     text-align: center;
-    width: 80%;
   }
 
   #who-am-i img {
     display: flex;
     justify-content: center;
   }
+
+  .things-i-ve-done-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
-/* @media (max-width: 720px) {
+
+@media (max-width: 720px) {
   #who-am-i-content {
     text-align: center;
     width: 80%;
   }
+
   #who-am-i img {
     display: flex;
     justify-content: center;
   }
-} */
 
-
-/* @media (max-width: 960px) {
-  .container {
-    width: 700px;
+  .things-i-ve-done-cards {
+    display: grid;
+    grid-template-columns: 1fr;
   }
+}
+
+
+@media (max-width: 960px) {
+  /* #who-am-i {
+    height: 100vh;
+  }
+
+  #things-i-ve-done {
+    height: 100vh;
+  } */
+
+  #who-am-i-content {
+    text-align: center;
+    width: 80%;
+  }
+
+  #who-am-i img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .things-i-ve-done-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
 }
