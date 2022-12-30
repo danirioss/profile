@@ -18,7 +18,6 @@ a {
 }
 
 #my-name-is {
-  height: 100vh;
   padding: 200px 50px;
 }
 
@@ -56,7 +55,7 @@ a {
 }
 
 #who-am-i {
-  height: 100vh;
+  margin-bottom: 100px;
 }
 
 #who-am-i-content {
@@ -74,7 +73,7 @@ a {
 }
 
 #things-i-ve-done {
-  height: 100vh;
+  margin-bottom: 150px;
 }
 
 .things-i-ve-done-cards {
@@ -108,19 +107,20 @@ a p {
 }
 
 #technologies-i-ve-used {
-  height: 100vh;
+  margin-bottom: 200px;
 }
 
 #technologies-i-ve-used li {
   color: #FF6E31;
   font-family: 'Fira Mono', monospace;
   list-style: none;
+  font-size: 25px;
 }
 
 #whats-next {
-  height: 100vh;
   display: flex;
   align-items: center;
+  margin-bottom: 200px;
 }
 
 #whats-next h2 {
