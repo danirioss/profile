@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 #my-name-is {
   padding: 200px 50px;
 }
@@ -43,6 +47,12 @@ a {
   padding: 1.25rem 1.75rem;
 }
 
+.button:hover {
+  opacity: 0.5;
+  transition: 0.7s;
+  color: #FF6E31;
+}
+
 .mediun-title {
   font-size: 40px;
   font-weight: 700;
@@ -51,7 +61,7 @@ a {
 }
 
 #who-am-i {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 #who-am-i-content {
@@ -69,7 +79,7 @@ a {
 }
 
 #things-i-ve-done {
-  margin-bottom: 150px;
+  margin-bottom: 180px;
 }
 
 .things-i-ve-done-cards {
