@@ -23,7 +23,12 @@ a:hover {
 }
 
 #my-name-is {
-  padding: 200px 50px;
+  padding: 250px 50px;
+}
+
+#strings {
+  height: 186px;
+  margin-bottom: 30px;
 }
 
 .little-title {
@@ -155,6 +160,10 @@ a p {
 @media (max-width: 540px) {
   #my-name-is {
     padding-top: 100px;
+  }
+
+  #strings {
+    height: 280px;
   }
 
   #who-am-i-content {
