@@ -1,20 +1,17 @@
 var typed = new Typed('#typed', {
-  strings: ['and I want code for you.'],
+  strings: ['and I wanna code for you.'],
   typeSpeed: 50,
   loop: true
 });
 
-tsParticles.load("tsparticles-custom", {
-  fullScreen: {
-    enable: false
-  },
+tsParticles.load("tsparticles", {
   "autoPlay": true,
   "background": {
     "color": {
-      "value": "#043564"
+      "value": "#243763"
     },
     "image": "url('https://vincentgarreau.com/particles.js/assets/img/kbLd9vb_new.gif')",
-    "position": "0 50%",
+    "position": "-10% 50%",
     "repeat": "no-repeat",
     "size": "60%",
     "opacity":1
@@ -32,8 +29,8 @@ tsParticles.load("tsparticles-custom", {
   "defaultThemes": {},
   "delay": 0,
   "fullScreen": {
-    "enable": true,
-    "zIndex": 1
+    "enable": false,
+    "zIndex": -1
   },
   "detectRetina": true,
   "duration": 0,
