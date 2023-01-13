@@ -22,6 +22,11 @@ tg@*:
   resolved "https://registry.yarnpkg.com/tg/-/tg-0.0.7.tgz#940a94dedada05dff97b9f5b7ab4b21ff6f4f57c"
   integrity sha512-9PpnEIG4jSF0VC1XOxk8BZhzNi4OfbG0kqwc5zoWZDtPB+O0IxRyzVLGiM/qGAkY1Tczqkq+P69eX2NMHgxQVw==
 
+tsparticles-engine@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/tsparticles-engine/-/tsparticles-engine-2.7.1.tgz#8800ed8569db65dbccaed6c42e5bf86bdf2dff1a"
+  integrity sha512-iUjaagXDyYuJi107yADrLegIQ1jHe658JJQUv6+Fd/DRLrmuBU4XrzaxlERv72LHUrZtk1E/WmnOpeIw1AJzFQ==
+
 typed.js@^2.0.12:
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/typed.js/-/typed.js-2.0.12.tgz#246aff074c8e18d32ec27acb7be15094ac0bc0e1"

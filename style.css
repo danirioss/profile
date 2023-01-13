@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;800&display=swap');
 
-html {
-  /* scroll-behavior: smooth;
-  scroll-padding-top: 75px; */
-}
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -124,6 +120,17 @@ a p {
 
 #technologies-i-ve-used {
   margin-bottom: 200px;
+}
+
+#tsparticles-custom {
+  position: absolute;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 200px;
+  z-index: -1;
 }
 
 #technologies-i-ve-used li {
