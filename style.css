@@ -135,6 +135,7 @@ a p {
 
 #technologies-i-ve-used-content {
   padding: 20px 130px;
+  text-align: end;
 }
 
 #technologies-i-ve-used li {
@@ -175,6 +176,7 @@ a p {
 
   #my-name-is {
     padding-top: 150px;
+    height: 100vh;
   }
 
   .big-title {
@@ -209,6 +211,20 @@ a p {
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  #technologies-i-ve-used {
+    height: 100vh;
+  }
+
+  #technologies-i-ve-used-content {
+    text-align: center !important;
+    padding: none;
+  }
+
+  #technologies-i-ve-used img {
+    width: 80%;
+  }
+
 }
 
 
