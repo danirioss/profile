@@ -98,7 +98,7 @@ a:hover {
 .things-i-ve-done-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
+  grid-gap: 25px;
 }
 
 .card {
@@ -129,14 +129,12 @@ a p {
   height: 850px;
 }
 
-#tsparticles {
-  height: 100%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0;
-  padding: 0;
-  z-index: -1;
+#technologies-i-ve-used img {
+  width: 90%;
+}
+
+#technologies-i-ve-used-content {
+  padding: 20px 130px;
 }
 
 #technologies-i-ve-used li {
@@ -226,6 +224,6 @@ a p {
 
   .things-i-ve-done-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }

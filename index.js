@@ -4,17 +4,12 @@ var typed = new Typed('#typed', {
   loop: true
 });
 
-tsParticles.load("tsparticles", {
+tsParticles.load("tsparticles-stars", {
   "autoPlay": true,
   "background": {
     "color": {
       "value": "#243763"
     },
-    "image": "url('https://vincentgarreau.com/particles.js/assets/img/kbLd9vb_new.gif')",
-    "position": "-10% 50%",
-    "repeat": "no-repeat",
-    "size": "60%",
-    "opacity":1
   },
   "backgroundMask": {
     "composite": "destination-out",
@@ -29,7 +24,7 @@ tsParticles.load("tsparticles", {
   "defaultThemes": {},
   "delay": 0,
   "fullScreen": {
-    "enable": false,
+    "enable": true,
     "zIndex": -1
   },
   "detectRetina": true,
