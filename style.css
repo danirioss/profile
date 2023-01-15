@@ -28,7 +28,7 @@ a:hover {
 
 #strings {
   height: 186px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .little-title {
@@ -126,7 +126,8 @@ a p {
 }
 
 #technologies-i-ve-used {
-  height: 850px;
+  height: 700px;
+  padding: 100px 0;
 }
 
 #technologies-i-ve-used img {
@@ -146,13 +147,13 @@ a p {
 }
 
 #whats-next {
-  height: 700px;
+  height: 750px;
   display: flex;
   align-items: center;
 }
 
 #whats-next h2 {
-  font-size: 3.5em;
+  font-size: 3em;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 30px;
@@ -160,7 +161,7 @@ a p {
 
 #whats-next li {
   padding: 0 15px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   list-style: none;
 }
 
@@ -204,7 +205,12 @@ a p {
     justify-content: center;
     width: 70%;
     height: auto;
-    margin-bottom: 10%;
+    margin-bottom: 50px;
+  }
+
+  #things-i-ve-done h4 {
+    text-align: center;
+    margin: 10px;
   }
 
   .things-i-ve-done-cards {
@@ -212,17 +218,23 @@ a p {
     grid-template-columns: 1fr;
   }
 
-  #technologies-i-ve-used {
-    height: 100vh;
-  }
-
   #technologies-i-ve-used-content {
     text-align: center !important;
-    padding: none;
+    padding: 0;
   }
 
   #technologies-i-ve-used img {
     width: 80%;
+    margin-top: 100px;
+  }
+
+  #technologies-i-ve-used {
+    height: 600px;
+  }
+
+  #whats-next {
+    height: 600px;
+    padding: 0 30px;
   }
 
 }
@@ -230,7 +242,7 @@ a p {
 
 @media (max-width: 720px) {
   body {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   #who-am-i-content {
@@ -241,11 +253,20 @@ a p {
   #who-am-i img {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
   }
 
   .things-i-ve-done-cards {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  #technologies-i-ve-used img {
+    width: 80%;
+  }
+
+  #whats-next {
+    margin: 100px 50px 0;
   }
 }
 
@@ -259,10 +280,19 @@ a p {
   #who-am-i img {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
   }
 
   .things-i-ve-done-cards {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  #technologies-i-ve-used img {
+    width: 80%;
+  }
+
+  #whats-next {
+    margin: 150px 50px 0;
   }
 }
