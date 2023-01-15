@@ -1,6 +1,7 @@
 # Portfólio - Daniela Rios
 
-<img width="1436" alt="Captura de Tela 2023-01-14 às 9 05 56 PM" src="https://user-images.githubusercontent.com/108156982/212502512-2bfb4fc3-bcbb-44a1-9e05-d06c685c993b.png">
+<img width="1440" alt="Captura de Tela 2023-01-14 às 9 10 10 PM" src="https://user-images.githubusercontent.com/108156982/212502617-a3e84f90-500a-496b-b3f1-4442b0176d45.png">
+
 
 <a href="https://danirioss.github.io/profile/">Click here to view to project</a>
 
