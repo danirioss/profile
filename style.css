@@ -3,7 +3,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+  scroll-padding-top: 100px;
 }
 
 body {
@@ -23,7 +23,7 @@ a:hover {
 }
 
 #my-name-is {
-  padding: 220px 50px;
+  padding: 300px 50px;
 }
 
 #strings {
@@ -72,6 +72,7 @@ a:hover {
 
 #who-am-i {
   margin-bottom: 150px;
+  background-color: #243763;
 }
 
 #who-am-i-content {
@@ -102,6 +103,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 25px;
+  background-color: #243763;
 }
 
 .card {
@@ -134,11 +136,11 @@ a p {
 }
 
 #technologies-i-ve-used img {
-  width: 120%;
+  width: 140%;
 }
 
 #technologies-i-ve-used-content {
-  padding: 20px 130px;
+  padding: 20px 200px 20px 0;
   text-align: end;
 }
 
@@ -205,13 +207,14 @@ a p {
 
   #who-am-i-content {
     padding: 0;
+    margin: 0;
     text-align: center;
   }
 
   #who-am-i img {
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 80%;
     height: auto;
     margin-bottom: 50px;
   }
@@ -256,18 +259,26 @@ a p {
 
   #who-am-i-content {
     text-align: center;
-    width: 80%;
+    width: 80% !important;
+    margin-bottom: 60px;
+
   }
 
   #who-am-i img {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    width: 50% !important;
   }
 
   .things-i-ve-done-cards {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  #technologies-i-ve-used-content {
+    text-align: center !important;
+    padding: 50px;
   }
 
   #technologies-i-ve-used img {
@@ -281,12 +292,22 @@ a p {
 
 
 @media (max-width: 960px) {
+  body {
+    font-size: 18px;
+  }
+
+  #who-am-i {
+    background-color: transparent;
+  }
+
   #who-am-i-content {
     text-align: center;
-    width: 80%;
+    width: 80% !important;
+    background-color: #243763;
   }
 
   #who-am-i img {
+    width: 60% !important;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -301,7 +322,38 @@ a p {
     width: 80%;
   }
 
+  #technologies-i-ve-used-content {
+    text-align: center !important;
+    padding: 50px;
+  }
+
   #whats-next {
-    margin: 150px 50px 0;
+    margin: 150px 150px 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  #who-am-i {
+    display: flex;
+    justify-content: center;
+  }
+
+  #who-am-i img {
+   width: 95%;
+   height: auto;
+  }
+
+  #who-am-i-content {
+    width: 40%;
+    margin-left: 30px !important;
+    padding: 0;
+  }
+
+  #who-am-i p {
+    font-size: 0.8em;
+  }
+
+  #technologies-i-ve-used-content {
+    margin-bottom: 100px !important;
   }
 }
