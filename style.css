@@ -80,6 +80,10 @@ a:hover {
   text-align: end;
 }
 
+#who-am-i p {
+  font-size: 0.9em;
+}
+
 #who-am-i img {
   object-fit: cover;
   height: 70vh;
@@ -92,7 +96,6 @@ a:hover {
   height: 700px;
   display: flex;
   align-items: center;
-  /* margin-bottom: 180px; */
 }
 
 .things-i-ve-done-cards {
@@ -167,6 +170,11 @@ a p {
 
 #whats-next i {
   color: #FF6E31;
+}
+
+#whats-next a:hover {
+  opacity: 0.5;
+  transition: 0.4s;
 }
 
 
