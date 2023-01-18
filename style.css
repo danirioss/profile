@@ -9,7 +9,6 @@ html {
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  background-color: #243763;
   color: #FFEBB7;
   font-size: 20px;
 }
@@ -23,7 +22,8 @@ a:hover {
 }
 
 #my-name-is {
-  padding: 300px 50px;
+  height: 100vh;
+  padding: 200px 50px;
 }
 
 #strings {
@@ -72,62 +72,64 @@ a:hover {
 
 #who-am-i {
   margin-bottom: 150px;
-  background-color: #243763;
+  /* display: flex;
+  justify-content: space-around !important; */
 }
 
 #who-am-i-content {
   padding: 50px;
   width: 50%;
   text-align: end;
+  background-color: #243763;
 }
 
 #who-am-i p {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 #who-am-i img {
   object-fit: cover;
-  height: 70vh;
+  width: 60%;
   margin: auto;
   border: 5px solid #FF6E31;
   border-radius: 10px;
+  margin: 70px 20px 30px 80px;
+  /* transform: translate(70px 100px) */
+  /* margin-top: 100px; */
+  /* display: flex;
+  align-items: center; */
 }
 
 #things-i-ve-done {
   height: 700px;
-  display: flex;
-  align-items: center;
 }
 
-.things-i-ve-done-cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 25px;
+.things-i-ve-done-card {
   background-color: #243763;
+  margin-bottom: 50px;
 }
 
-.card {
+.things-i-ve-done-card-content {
+  width: 50%;
   padding: 20px;
-  border: 0,5px solid #AD8E70;
-  box-shadow: 2px 0px 6px 2px  rgba(0,0,0,0.3);
-  background-color: transparent;
 }
 
-a img {
-  width: 100%;
-  height: 80px;
+.things-i-ve-done-card-content h3 {
+  color: #AD8E70;
+  font-family: 'Fira Mono', monospace;
+  font-size: 1.2em;
+}
+
+.things-i-ve-done-card img {
+  width: 50%;
+  height: auto;
   object-fit: cover;
 }
 
-a h3 {
-  color: #AD8E70;
-  margin-top: 20px;
-  font-family: 'Fira Mono', monospace;
-}
-
-a p {
+.things-i-ve-done-card-content p {
   font-size: 1em;
-  color: #FFEBB7
+  color: #FFEBB7;
+  margin-bottom: 50px;
 }
 
 #technologies-i-ve-used {
@@ -224,10 +226,10 @@ a p {
     margin: 10px;
   }
 
-  .things-i-ve-done-cards {
+  /* .things-i-ve-done-cards {
     display: grid;
     grid-template-columns: 1fr;
-  }
+  } */
 
   #technologies-i-ve-used-content {
     text-align: center !important;
@@ -261,7 +263,6 @@ a p {
     text-align: center;
     width: 80% !important;
     margin-bottom: 60px;
-
   }
 
   #who-am-i img {
@@ -271,10 +272,10 @@ a p {
     width: 50% !important;
   }
 
-  .things-i-ve-done-cards {
+  /* .things-i-ve-done-cards {
     display: grid;
     grid-template-columns: 1fr;
-  }
+  } */
 
   #technologies-i-ve-used-content {
     text-align: center !important;
@@ -313,10 +314,10 @@ a p {
     margin-bottom: 50px;
   }
 
-  .things-i-ve-done-cards {
+  /* .things-i-ve-done-cards {
     display: grid;
     grid-template-columns: 1fr;
-  }
+  } */
 
   #technologies-i-ve-used img {
     width: 80%;
