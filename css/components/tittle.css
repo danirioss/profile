@@ -1,0 +1,24 @@
+.little-title {
+  font-family: 'Fira Mono', monospace;
+  color: #FF6E31;
+  font-size: 0.75em;
+  margin-bottom: 0 0 20px 0;
+}
+
+.big-title {
+  font-size: 4em;
+  font-weight: 800;
+  margin: 10px 0 0 0;
+}
+
+.mediun-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #AD8E70;
+  text-decoration: overline;
+}
+
+#strings {
+  height: 186px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,14 @@
+.button {
+  font-family: 'Fira Mono', monospace;
+  color: #FF6E31;
+  font-size: 0.75em;
+  border: 1px solid #FF6E31;
+  border-radius: 4px;
+  padding: 1.25rem 1.75rem;
+}
+
+.button:hover {
+  opacity: 0.5;
+  transition: 0.7s;
+  color: #FF6E31;
+}

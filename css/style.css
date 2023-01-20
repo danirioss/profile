@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;800&display=swap');
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/tittle.css");
+
 
 html {
   scroll-behavior: smooth;
@@ -21,119 +25,70 @@ a:hover {
   text-decoration: none;
 }
 
-#my-name-is {
-  height: 100vh;
-  padding: 200px 50px;
-}
-
-#strings {
-  height: 186px;
-  margin-bottom: 50px;
-}
-
-.little-title {
-  font-family: 'Fira Mono', monospace;
-  color: #FF6E31;
-  font-size: 0.75em;
-  margin-bottom: 0 0 20px 0;
-}
-
-.big-title {
-  font-size: 4em;
-  font-weight: 800;
-  margin: 10px 0 0 0;
-}
-
 .dark-brown {
   color: #AD8E70
 }
 
-.button {
-  font-family: 'Fira Mono', monospace;
-  color: #FF6E31;
-  font-size: 0.75em;
-  border: 1px solid #FF6E31;
-  border-radius: 4px;
-  padding: 1.25rem 1.75rem;
-}
 
-.button:hover {
-  opacity: 0.5;
-  transition: 0.7s;
-  color: #FF6E31;
-}
 
-.mediun-title {
-  font-size: 1.5em;
-  font-weight: 700;
-  color: #AD8E70;
-  text-decoration: overline;
+#my-name-is {
+  padding: 200px 150px 200px 50px;
 }
 
 #who-am-i {
-  margin-bottom: 150px;
-  /* display: flex;
-  justify-content: space-around !important; */
+  padding: 100px 150px;
 }
 
 #who-am-i-content {
-  padding: 50px;
-  width: 50%;
   text-align: end;
   background-color: #243763;
 }
 
-#who-am-i p {
+#who-am-i-content p {
   font-size: 0.8em;
 }
 
 #who-am-i img {
+  width: 80%;
   object-fit: cover;
-  width: 60%;
   margin: auto;
   border: 5px solid #FF6E31;
   border-radius: 10px;
-  margin: 70px 20px 30px 80px;
-  /* transform: translate(70px 100px) */
-  /* margin-top: 100px; */
-  /* display: flex;
-  align-items: center; */
 }
+
+
 
 #things-i-ve-done {
-  height: 700px;
+  padding: 100px 100px;
 }
 
-.things-i-ve-done-card {
+#things-i-ve-done .cardi {
   background-color: #243763;
-  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  padding: 50px 50px;
 }
 
-.things-i-ve-done-card-content {
-  width: 50%;
-  padding: 20px;
+#things-i-ve-done .cardi img{
+  width: 80%;
+  height: auto;
+  object-fit: cover;
 }
 
-.things-i-ve-done-card-content h3 {
+#things-i-ve-done h3 {
   color: #AD8E70;
   font-family: 'Fira Mono', monospace;
   font-size: 1.2em;
 }
 
-.things-i-ve-done-card img {
-  width: 50%;
-  height: auto;
-  object-fit: cover;
+#things-i-ve-done p {
+  color: #FFEBB7;
+  margin-bottom: 30px;
 }
 
-.things-i-ve-done-card-content p {
-  font-size: 1em;
-  color: #FFEBB7;
-  margin-bottom: 50px;
-}
+
 
 #technologies-i-ve-used {
-  height: 700px;
   padding: 100px 0;
 }
 
@@ -153,16 +108,14 @@ a:hover {
   font-size: 1.25em;
 }
 
+
 #whats-next {
-  height: 750px;
-  display: flex;
-  align-items: center;
+  padding: 200px;
 }
 
 #whats-next h2 {
   font-size: 3em;
   font-weight: 700;
-  margin-top: 0;
   margin-bottom: 30px;
 }
 
@@ -183,14 +136,14 @@ a:hover {
 
 
 
-@media (max-width: 540px) {
+/* @media (max-width: 540px) {
   body {
     font-size: 16px;
   }
 
   #my-name-is {
     padding-top: 150px;
-    height: 100vh;
+    height: 650px;
   }
 
   .big-title {
@@ -225,11 +178,6 @@ a:hover {
     text-align: center;
     margin: 10px;
   }
-
-  /* .things-i-ve-done-cards {
-    display: grid;
-    grid-template-columns: 1fr;
-  } */
 
   #technologies-i-ve-used-content {
     text-align: center !important;
@@ -272,10 +220,6 @@ a:hover {
     width: 50% !important;
   }
 
-  /* .things-i-ve-done-cards {
-    display: grid;
-    grid-template-columns: 1fr;
-  } */
 
   #technologies-i-ve-used-content {
     text-align: center !important;
@@ -314,10 +258,6 @@ a:hover {
     margin-bottom: 50px;
   }
 
-  /* .things-i-ve-done-cards {
-    display: grid;
-    grid-template-columns: 1fr;
-  } */
 
   #technologies-i-ve-used img {
     width: 80%;
@@ -330,31 +270,5 @@ a:hover {
 
   #whats-next {
     margin: 150px 150px 0;
-  }
-}
-
-@media (max-width: 1100px) {
-  #who-am-i {
-    display: flex;
-    justify-content: center;
-  }
-
-  #who-am-i img {
-   width: 95%;
-   height: auto;
-  }
-
-  #who-am-i-content {
-    width: 40%;
-    margin-left: 30px !important;
-    padding: 0;
-  }
-
-  #who-am-i p {
-    font-size: 0.8em;
-  }
-
-  #technologies-i-ve-used-content {
-    margin-bottom: 100px !important;
   }
 }
