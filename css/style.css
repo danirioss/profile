@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&family=Raleway:wght@300;400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;800&display=swap');
 @import url("components/container.css");
 @import url("components/button.css");
-@import url("components/tittle.css");
+@import url("components/title.css");
 
 
 html {
@@ -29,10 +29,10 @@ a:hover {
   color: #AD8E70
 }
 
-
+/* section who am i */
 
 #my-name-is {
-  padding: 200px 150px 200px 50px;
+  padding: 200px 300px 200px 50px;
 }
 
 #who-am-i {
@@ -54,9 +54,10 @@ a:hover {
   margin: auto;
   border: 5px solid #FF6E31;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 
-
+/* section thinks I've done */
 
 #things-i-ve-done {
   padding: 100px 100px;
@@ -66,7 +67,7 @@ a:hover {
   background-color: #243763;
   display: flex;
   align-items: center;
-  padding: 50px 50px;
+  margin: 50px 50px;
 }
 
 #things-i-ve-done .cardi img{
@@ -86,7 +87,7 @@ a:hover {
   margin-bottom: 30px;
 }
 
-
+/* section techonogies I've used */
 
 #technologies-i-ve-used {
   padding: 100px 0;
@@ -108,6 +109,7 @@ a:hover {
   font-size: 1.25em;
 }
 
+/* section what's next */
 
 #whats-next {
   padding: 200px;
@@ -134,141 +136,113 @@ a:hover {
   transition: 0.4s;
 }
 
+/* media query */
 
+@media (max-width: 960px) {
+  #my-name-is {
+    padding: 210px 100px 210px 100px;
+  }
 
-/* @media (max-width: 540px) {
+  #who-am-i-content {
+    text-align: start;
+  }
+
+  #who-am-i img {
+    display: flex;
+    justify-content: center;
+  }
+
+  #things-i-ve-done h4 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  #things-i-ve-done .cardi img{
+    margin: 50px 0 30px 0;
+    width: 100%;
+  }
+
+  #technologies-i-ve-used img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 720px) {
   body {
     font-size: 16px;
   }
 
-  #my-name-is {
-    padding-top: 150px;
-    height: 650px;
+  #who-am-i {
+    padding: 100px 50px;
   }
 
-  .big-title {
-    font-size: 2.5em;
+  #who-am-i-content p {
+    font-size: 1em;
   }
 
-  .button {
-    font-size: 0.5em;
-    padding: 0.75rem 1rem;
-  }
-
-  #strings {
-    height: 220px;
-    margin-bottom: 40px;
-  }
-
-  #who-am-i-content {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
-
-  #who-am-i img {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    height: auto;
-    margin-bottom: 50px;
-  }
-
-  #things-i-ve-done h4 {
-    text-align: center;
-    margin: 10px;
-  }
-
-  #technologies-i-ve-used-content {
-    text-align: center !important;
-    padding: 0;
-  }
-
-  #technologies-i-ve-used img {
-    width: 80%;
-    margin-top: 100px;
-  }
-
-  #technologies-i-ve-used {
-    height: 600px;
+  #things-i-ve-done {
+    padding: 100px 50px;
   }
 
   #whats-next {
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    padding: 0 50px;
+    padding: 100px;
   }
 }
 
-
-@media (max-width: 720px) {
+@media (max-width: 540px) {
   body {
-    font-size: 18px;
-  }
-
-  #who-am-i-content {
-    text-align: center;
-    width: 80% !important;
-    margin-bottom: 60px;
-  }
-
-  #who-am-i img {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    width: 50% !important;
-  }
-
-
-  #technologies-i-ve-used-content {
-    text-align: center !important;
-    padding: 50px;
-  }
-
-  #technologies-i-ve-used img {
-    width: 80%;
-  }
-
-  #whats-next {
-    margin: 100px 50px 0;
-  }
-}
-
-
-@media (max-width: 960px) {
-  body {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   #who-am-i {
-    background-color: transparent;
+    padding: 100px 0;
   }
 
-  #who-am-i-content {
-    text-align: center;
-    width: 80% !important;
-    background-color: #243763;
+  #things-i-ve-done {
+    padding: 100px 0px;
   }
 
-  #who-am-i img {
-    width: 60% !important;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+  #things-i-ve-done h4 {
+    padding-left: 12px;
   }
 
-
-  #technologies-i-ve-used img {
-    width: 80%;
+  #technologies-i-ve-used {
+    padding: 50px 0;
   }
 
   #technologies-i-ve-used-content {
-    text-align: center !important;
-    padding: 50px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 415px) {
+  body {
+    font-size: 12px;
+  }
+
+  .container {
+    margin: 0;
+  }
+
+  #strings {
+    height: 210px;
+  }
+
+  #my-name-is {
+    padding: 150px 80px;
+  }
+
+  #things-i-ve-done {
+    padding: 0;
+  }
+
+  #technologies-i-ve-used-content {
+    padding-right: 40px;
   }
 
   #whats-next {
-    margin: 150px 150px 0;
+    padding: 50px;
   }
 }
+
+

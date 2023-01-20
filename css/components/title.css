@@ -12,10 +12,10 @@
 }
 
 .mediun-title {
-  font-size: 1.5em;
-  font-weight: 700;
+  font-family: 'Fira Mono', monospace;
+  font-size: 1.8em;
+  font-weight: 500;
   color: #AD8E70;
-  text-decoration: overline;
 }
 
 #strings {
