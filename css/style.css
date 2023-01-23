@@ -112,7 +112,8 @@ a:hover {
 /* section what's next */
 
 #whats-next {
-  padding: 200px;
+  margin: 200px;
+  background-color: #243763;
 }
 
 #whats-next h2 {
@@ -211,7 +212,13 @@ a:hover {
   }
 
   #technologies-i-ve-used-content {
-    padding-right: 100px;
+    text-align: center;
+    padding: 0;
+  }
+
+  #whats-next {
+    margin: 70px 30px 150px 30px;
+    padding: 30px;
   }
 }
 
@@ -244,5 +251,3 @@ a:hover {
     padding: 50px;
   }
 }
-
-

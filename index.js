@@ -1,8 +1,10 @@
 var typed = new Typed('#typed', {
   strings: ['and I wanna code for you.'],
-  typeSpeed: 50,
-  loop: true
+  typeSpeed: 55,
+  loop: false
 });
+
+AOS.init();
 
 tsParticles.load("tsparticles-stars", {
   "autoPlay": true,

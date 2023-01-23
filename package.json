@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "aos": "^2.3.4",
     "tsparticles-engine": "^2.7.1",
     "typed.js": "^2.0.12",
     "typedjs": "^0.2.2"
