@@ -1,6 +1,6 @@
 var typed = new Typed('#typed', {
   strings: ['and I wanna code for you.'],
-  typeSpeed: 55,
+  typeSpeed: 25,
   loop: false
 });
 
